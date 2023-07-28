@@ -56,7 +56,7 @@ class DynamicPrototypesTableViewController: UITableViewController {
             cell.textLabel?.text = etc[indexPath.row]
         }
 
-        cell.textLabel?.font = .boldSystemFont(ofSize: 15)
+        cell.textLabel?.font = .boldSystemFont(ofSize: 10)
         
         return cell
     }
