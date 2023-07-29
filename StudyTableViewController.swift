@@ -22,6 +22,7 @@ class StudyTableViewController: UITableViewController {
         return 2
     }
     
+    //100% 모든 경우의 수를 return 해주어야 함
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return section == 0 ? "첫 번째 섹션" : "두 번째 섹션"
     }
